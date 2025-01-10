@@ -1,7 +1,5 @@
 #include <cmath>
-
-#define PI 3.14159
-#define TAU (2.f*PI)
+#include "Constants.h"
 
 /**
 *Simple Hard Clipping function based on min/max and preClip Gain
