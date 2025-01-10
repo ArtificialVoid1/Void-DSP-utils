@@ -1,5 +1,6 @@
+#pragma once
+
 #include <cmath>
-#include "Constants.h"
 
 static bool Threshold(float Limit, float Sample) {
   return Limit >= Sample;
