@@ -2,6 +2,7 @@
 
 #include <cmath>
 
+
 static bool Threshold(float Limit, float Sample) {
   return Limit >= Sample;
 }
