@@ -1,9 +1,9 @@
 # Void-DSP-utils
 A collection of references to stuff I use for my plugins
 
-# [Directory](//)
-- ### [DSP](//DSP/)
-    - [**Clipping.h**](//DSP/Clipping.h)
-    - [**Compressor.h**](//DSP/Compressor.h)
-    - [**PitchShift.h**](//DSP/PitchShift.h)
-    - [**Constants.h**](//DSP/Constants.h)
+# Directory
+- ### [DSP](https://github.com/ArtificialVoid1/Void-DSP-utils/tree/main/DSP)
+    - [**Clipping.h**](https://github.com/ArtificialVoid1/Void-DSP-utils/blob/main/DSP/Clipping.h)
+    - [**Compressor.h**](https://github.com/ArtificialVoid1/Void-DSP-utils/blob/main/DSP/Compressor.h)
+    - [**PitchShift.h**](https://github.com/ArtificialVoid1/Void-DSP-utils/blob/main/DSP/PitchShift.h)
+    - [**Constants.h**](https://github.com/ArtificialVoid1/Void-DSP-utils/blob/main/DSP/Constants.h)
