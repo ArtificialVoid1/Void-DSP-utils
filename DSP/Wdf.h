@@ -5,6 +5,15 @@
 
 using chowdsp::wdft;
 
+
+/// -------------------------------------------------------------------
+
+template<typename SampleType>
+static SampleType Non_modeled_OpAmp(SampleType Input, SampleType Inverting_Input, SampleType OpenLoopGain) {
+    return A * (Input * Inverting_Input);
+}
+
+
 // ---------------------------------------------------------------------
 
 template<typename SampleType>

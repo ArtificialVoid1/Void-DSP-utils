@@ -2,12 +2,13 @@
 
 #include <cmath>
 
-
-static bool Threshold(float Limit, float Sample) {
+template<typename SampleType>
+static bool Threshold(SampleType Limit, SampleType Sample) {
   return Limit >= Sample;
 }
 
-static float BasicCompress(float Sample, float threshold, float ratio) {
+template<typename SampleType>
+static SampleType BasicCompress(SampleType Sample, SampleType threshold, SampleType ratio) {
   if Threshold(threshold, Sample) {
     return threshold + ((abs(Sample)-threshold) / ratio);
   }
