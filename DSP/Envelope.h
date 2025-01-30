@@ -15,6 +15,15 @@ static float Cubic(float Sample, float Time) {
     return Sample * Gain;
 }
 
+// --------------------------------------------------------------------
+
+enum EnvType {
+    eLinear = 0,
+
+    eQuad = 10,
+    eCubic = 11,
+}
+
 
 
 
